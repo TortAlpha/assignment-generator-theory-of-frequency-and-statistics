@@ -6,9 +6,13 @@ class MainPanel(wx.Panel):
     def __init__(self, parent):
         super(MainPanel, self).__init__(parent)
         
+        #Main titles
+        self.mainTitle = wx.StaticText(self, label="Задания формируются согласно варианту №3 типовых расчетов"
+                                       , pos=(50, 20))
+        
         #CheckBoxes
         self.checkBoxPanel = CheckBoxPanel.CheckBoxPanel(self)
-        
+
         self.checkBoxPanel.SetPosition((10, 100))
         self.checkBoxPanel.SetSize((500, 500))
         

@@ -14,9 +14,9 @@ class MainPanel(wx.Panel):
         self.checkBoxPanel = CheckBoxPanel.CheckBoxPanel(self)
 
         self.checkBoxPanel.SetPosition((10, 100))
-        self.checkBoxPanel.SetSize((500, 500))
+        self.checkBoxPanel.SetSize((500, 320))
         
-            #Setting active all checkboxes
+        #Setting active all checkboxes
         for i in range(18):
             self.checkBoxPanel.checkboxes[i].SetValue(True)
         
@@ -26,7 +26,7 @@ class MainPanel(wx.Panel):
         
         self.variantsLabel = wx.StaticText(self, label="Введите количество вариантов: ", pos=(120, 62))
         
-        self.generateButton = wx.Button(self, label="Сгенерировать варианты и ответы", pos=(100,420), size=(300, 25))
+        self.generateButton = wx.Button(self, label="Сгенерировать варианты и ответы", pos=(100, 420), size=(300, 25))
         self.generateButton.Bind(wx.EVT_BUTTON, self.onClickGenerateButton)
 
         

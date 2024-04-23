@@ -1,0 +1,110 @@
+{
+    "1":
+    {
+        "text": "Цифровой кодовый замок на сейфе имеет на общей оси /X/ дисков, каждый из которых разделен на /X/ секторов. Какова вероятность открыть замок, выбирая код наудачу, если кодовая комбинация:\nа) неизвестна;\nб) не содержит одинаковых цифр?",
+        "data": [["5", "10"]],
+        "answers": ["а)1/10000; б)1/30240"]
+    },
+    "2":
+    {
+        "text": "В зале имеется /X/ белых и /X/ синих кресел. Случайным образом места занимают /X/ человек. Найти вероятность того, что они займут:\nа) /X/ белых и /X/ синих кресел;\nб) хотя бы одно синее кресло.",
+        "data": null,
+        "answers": null
+    },
+    "3":
+    {
+        "text": "/X/",
+        "data": [["Пусть А, В, С — случайные события, выраженные подмножествами одного и того же множества элементарных событий. В алгебре событий {А, В, С} запишите следующее:\nа) из данных событий произошло только А;\nб) произошло хотя бы одно из данных событий;\nв) произошло более одного из данных событий."]],
+        "answers": null
+    },
+    "4":
+    {
+        "text": null,
+        "data": null,
+        "answers": null
+    },
+    "5":
+    {
+        "text": null,
+        "data": null,
+        "answers": null
+    },
+    "6":
+    {
+        "text": null,
+        "data": null,
+        "answers": null
+    },
+    "7":
+    {
+        "text": null,
+        "data": null,
+        "answers": null
+    },
+    "8":
+    {
+        "text": null,
+        "data": null,
+        "answers": null
+    },
+    "9":
+    {
+        "text": null,
+        "data": null,
+        "answers": null
+    },
+    "10":
+    {
+        "text": null,
+        "data": null,
+        "answers": null
+    },
+    "11":
+    {
+        "text": null,
+        "data": null,
+        "answers": null
+    },
+    "12":
+    {
+        "text": null,
+        "data": null,
+        "answers": null
+    },
+    "13":
+    {
+        "text": null,
+        "data": null,
+        "answers": null
+    },
+    "14":
+    {
+        "text": null,
+        "data": null,
+        "answers": null
+    },
+    "15":
+    {
+        "text": null,
+        "data": null,
+        "answers": null
+    },
+    "16":
+    {
+        "text": null,
+        "data": null,
+        "answers": null
+    },
+    "17":
+    {
+        "text": null,
+        "data": null,
+        "answers": null
+    },
+    "18":
+    {
+        "text": null,
+        "data": null,
+        "answers": null
+    }
+}

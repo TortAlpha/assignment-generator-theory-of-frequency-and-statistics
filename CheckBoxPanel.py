@@ -23,8 +23,8 @@ class CheckBoxPanel(wx.Panel):
         
         #Лэйблы описания заданий
         self.checkboxes[0].SetLabel("1. Комбинаторика")
-        self.checkboxes[1].SetLabel("2. Комбинаторика")
-        self.checkboxes[2].SetLabel("3. Случайные события")
+        self.checkboxes[1].SetLabel("2. Гипергеометрическое распределение")
+        self.checkboxes[2].SetLabel("3. Алгебра событий")
         self.checkboxes[3].SetLabel("4. Случайные события")
         self.checkboxes[4].SetLabel("5. Случайные события")
         self.checkboxes[5].SetLabel("6. Независимые события")
@@ -32,8 +32,8 @@ class CheckBoxPanel(wx.Panel):
         self.checkboxes[7].SetLabel("8. Формула Байеса")
         self.checkboxes[8].SetLabel("9. Схема Бернулли")
         
-        self.checkboxes[9].SetLabel("10. Схема Бернулли")
-        self.checkboxes[10].SetLabel("11. Схема Бернулли")
+        self.checkboxes[9].SetLabel("10. Теорема Лапласа")
+        self.checkboxes[10].SetLabel("11. Теорема Лапласа")
         self.checkboxes[11].SetLabel("12. Дискретная СВ")
         self.checkboxes[12].SetLabel("13. Дискретная СВ")
         self.checkboxes[13].SetLabel("14. Дискретная СВ")

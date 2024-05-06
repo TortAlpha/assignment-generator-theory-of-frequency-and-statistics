@@ -1,5 +1,6 @@
 import wx
 import CheckBoxPanel
+import docx_generation
 
 class MainPanel(wx.Panel):
     
@@ -39,6 +40,10 @@ class MainPanel(wx.Panel):
         event.Skip() 
         
     def onClickGenerateButton(self, event):
-        pass
+        tasks = []
+        for i in range(18):
+            if self.checkBoxPanel.checkboxes[i].Value == True:
+                tasks.append(i+1)
+        docx_generation.generateDocument(variants = int(self.countVariantsTextBox.Value), tasks = tasks)
     
         

@@ -1,5 +1,4 @@
 import random
-import math
 
 def generate_task6(task_doc, answer_doc, task_number):
     

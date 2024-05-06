@@ -28,4 +28,4 @@ def generateDocument(taskOutputFile="docx/tasks.docx", answerOutputFile="docx/an
     answer_doc.save(answerOutputFile)
 
 for i in range(100):
-    generateDocument(variants=10, tasks=[1, 2, 3, 4, 5, 6])
+    generateDocument(variants=10, tasks=[1, 2, 3, 4, 5, 6, 7])
